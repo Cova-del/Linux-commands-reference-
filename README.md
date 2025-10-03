@@ -126,7 +126,7 @@ A comprehensive reference table for common Linux system commands.
 ## Web Application Testing
 
 ### SQL Injection
-```bash
+
 # SQLmap examples
 sqlmap -u "http://site.com/page.php?id=1" --dbs
 sqlmap -u "http://site.com/page.php?id=1" -D database --tables
@@ -164,7 +164,7 @@ amass enum -brute -d domain.com -w wordlist.txt
 ## Privilege Escalation Commands
 
 ### System Information
-```bash
+
 # Kernel version
 uname -a
 cat /etc/*-release
